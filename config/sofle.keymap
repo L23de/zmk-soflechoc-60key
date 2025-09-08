@@ -28,6 +28,7 @@
             key-positions = <31 32>;
             layers = <0>;
             timeout-ms = <30>;
+            require-prior-idle-ms = <10>;
         };
 
         dash {
@@ -35,6 +36,7 @@
             key-positions = <28 27>;
             layers = <0>;
             timeout-ms = <30>;
+            require-prior-idle-ms = <10>;
         };
 
         underscore {
@@ -42,24 +44,31 @@
             key-positions = <40 39>;
             layers = <0>;
             timeout-ms = <30>;
+            require-prior-idle-ms = <10>;
         };
 
         less_than {
             bindings = <&kp LESS_THAN>;
             key-positions = <25 26>;
             timeout-ms = <30>;
+            require-prior-idle-ms = <10>;
+            layers = <0>;
         };
 
         greater_than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <33 34>;
             timeout-ms = <30>;
+            require-prior-idle-ms = <10>;
+            layers = <0>;
         };
 
         ampersand {
             bindings = <&kp AMPS>;
             key-positions = <45 46>;
             timeout-ms = <30>;
+            require-prior-idle-ms = <10>;
+            layers = <0>;
         };
     };
 
