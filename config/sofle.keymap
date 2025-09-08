@@ -27,33 +27,39 @@
             bindings = <&kp EQUAL>;
             key-positions = <31 32>;
             layers = <0>;
+            timeout-ms = <30>;
         };
 
         dash {
             bindings = <&kp MINUS>;
             key-positions = <28 27>;
             layers = <0>;
+            timeout-ms = <30>;
         };
 
         underscore {
             bindings = <&kp UNDER>;
             key-positions = <40 39>;
             layers = <0>;
+            timeout-ms = <30>;
         };
 
         less_than {
             bindings = <&kp LESS_THAN>;
             key-positions = <25 26>;
+            timeout-ms = <30>;
         };
 
         greater_than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <33 34>;
+            timeout-ms = <30>;
         };
 
         ampersand {
             bindings = <&kp AMPS>;
             key-positions = <45 46>;
+            timeout-ms = <30>;
         };
     };
 
@@ -71,11 +77,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&sl 3      &mt EXCL NUMBER_1  &mt AT NUMBER_2  &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT N5                                                 &mt CARET NUMBER_6  &mt AMPERSAND N7  &mt STAR N8  &kp N9   &kp N0    &sl 3
-&mo 2      &kp Q              &kp D            &kp R              &kp W                &kp B                                                          &kp J               &kp F             &kp U        &kp P    &kp SEMI  &mo 2
-&kp TAB    &kp A              &kp S            &kp H              &kp T                &kp G                                                          &kp Y               &kp N             &kp E        &kp O    &kp I     &kp SQT
-&kp LSHFT  &kp Z              &kp X            &kp M              &kp C                &kp V           &mt LEFT_ALT LEFT_WIN    &mt RIGHT_ALT ESCAPE  &kp K               &kp L             &kp COMMA    &kp DOT  &kp FSLH  &kp RSHFT
-                              &tog 1           &mo 1              &kp LCTRL            &kp BSPC        &kp DEL                  &kp RET               &kp SPACE           &kp RCTRL         &mo 4        &tog 4
+&sl 3      &mt EXCL NUMBER_1  &mt AT NUMBER_2  &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT N5                                             &mt CARET NUMBER_6  &mt AMPERSAND N7  &mt STAR N8  &kp N9   &kp N0    &sl 3
+&mo 2      &kp Q              &kp D            &kp R              &kp W                &kp B                                                      &kp J               &kp F             &kp U        &kp P    &kp SEMI  &mo 2
+&kp TAB    &kp A              &kp S            &kp H              &kp T                &kp G                                                      &kp Y               &kp N             &kp E        &kp O    &kp I     &kp SQT
+&kp LSHFT  &kp Z              &kp X            &kp M              &kp C                &kp V           &mt LEFT_ALT LWIN    &mt RIGHT_ALT ESCAPE  &kp K               &kp L             &kp COMMA    &kp DOT  &kp FSLH  &kp RSHFT
+                              &tog 1           &mo 1              &kp LCTRL            &kp BSPC        &kp DEL              &kp RET               &kp SPACE           &kp RCTRL         &mo 4        &tog 4
             >;
 
             label = "default";
